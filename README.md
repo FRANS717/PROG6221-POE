@@ -61,7 +61,6 @@ PROG6221_V1/
 ├── Program.cs        # Entry point of the application
 ├── Chatbot.cs        # Main chatbot logic and responses
 ├── AudioPlayer.cs    # Handles audio playback
-├── (Helper Classes)  # ConsoleHelper, AsciiArt (if included)
 ```
 
 ---
@@ -71,8 +70,7 @@ PROG6221_V1/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/cybersecurity-chatbot.git
-cd cybersecurity-chatbot
+https://github.com/FRANS717/PROG6221-POE.git
 ```
 
 ### 2. Open in IDE
@@ -133,7 +131,7 @@ Please select an option:
 
 ## 👨‍💻 Author
 
-Developed as part of a cybersecurity awareness project.
+Developed as part of a CybersecurityAwarenessBot.
 
 ---
 
