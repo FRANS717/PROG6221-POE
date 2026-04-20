@@ -35,7 +35,7 @@ The chatbot is user-friendly, personalized, and includes optional audio greeting
   * Avoiding fake websites
   * Public Wi-Fi safety
 
-### 🔊 Additional Features
+###  Additional Features
 
 * Plays a **WAV audio greeting** on startup
 * ASCII art welcome screen
