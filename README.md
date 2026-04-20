@@ -1,6 +1,6 @@
-# 🔐 Cybersecurity Awareness Chatbot
+#  Cybersecurity Awareness Chatbot
 
-## 📌 Overview
+##  Overview
 
 The **Cybersecurity Awareness Chatbot** is a C# console-based application designed to educate users about online safety. It provides interactive responses on key cybersecurity topics such as phishing, password security, and safe browsing.
 
@@ -8,16 +8,16 @@ The chatbot is user-friendly, personalized, and includes optional audio greeting
 
 ---
 
-## 🚀 Features
+##  Features
 
-### ✅ Core Functionality
+###  Core Functionality
 
 * Interactive chatbot with menu-driven navigation
 * Personalized user experience (asks for user name)
 * Real-time responses with typing effect
 * Console-based UI with colored text
 
-### 🔒 Cybersecurity Topics Covered
+###  Cybersecurity Topics Covered
 
 * **Phishing Awareness**
 
@@ -44,7 +44,7 @@ The chatbot is user-friendly, personalized, and includes optional audio greeting
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * **C# (.NET)**
 * Console Application
@@ -53,7 +53,7 @@ The chatbot is user-friendly, personalized, and includes optional audio greeting
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 PROG6221_V1/
@@ -65,7 +65,7 @@ PROG6221_V1/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### 1. Clone the Repository
 
@@ -97,7 +97,7 @@ dotnet run
 
 ---
 
-## 💡 Example Usage
+##  Example Usage
 
 ```
 Welcome back, John!
@@ -112,7 +112,7 @@ Please select an option:
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 * Audio playback works **only on Windows**
 * Ensure the `.wav` file exists, otherwise playback will be skipped
@@ -120,7 +120,7 @@ Please select an option:
 
 ---
 
-## 📈 Future Improvements
+##  Future Improvements
 
 * Add GUI (Windows Forms or Web App)
 * Integrate real AI/NLP (e.g., API-based chatbot)
@@ -129,18 +129,18 @@ Please select an option:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Developed as part of a CybersecurityAwarenessBot.
 
 ---
 
-## 📜 License
+##  License
 
 This project is open-source and available under the **MIT License**.
 
 ---
 
-## 🌍 Stay Safe Online!
+##  Stay Safe Online!
 
 > "Cybersecurity is not just about technology — it's about awareness."
