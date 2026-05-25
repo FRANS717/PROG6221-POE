@@ -1,95 +1,173 @@
-#  Cybersecurity Awareness Chatbot
+# Cybersecurity Awareness Chatbot
 
-##  Overview
+## 📌 Project Overview
 
-The **Cybersecurity Awareness Chatbot** is a C# console-based application designed to educate users about online safety. It provides interactive responses on key cybersecurity topics such as phishing, password security, and safe browsing.
+The **Cybersecurity Awareness Chatbot** is a C# application developed to educate users about cybersecurity threats and safe online practices. The chatbot provides interactive guidance on phishing, password protection, safe browsing, and general cybersecurity awareness.
 
-The chatbot is user-friendly, personalized, and includes optional audio greetings to enhance the user experience.
+The application includes:
 
----
+* A console-based chatbot experience
+* Audio greeting functionality
+* Interactive menus and responses
+* Typing effects and colored console UI
+* Cybersecurity educational content
+* Windows Forms integration
 
-##  Features
-
-###  Core Functionality
-
-* Interactive chatbot with menu-driven navigation
-* Personalized user experience (asks for user name)
-* Real-time responses with typing effect
-* Console-based UI with colored text
-
-###  Cybersecurity Topics Covered
-
-* **Phishing Awareness**
-
-  * What phishing is
-  * How to detect phishing emails
-  * What to do if attacked
-* **Password Safety**
-
-  * Strong password creation
-  * Two-Factor Authentication (2FA)
-  * Password managers
-* **Safe Browsing**
-
-  * Identifying secure websites
-  * Avoiding fake websites
-  * Public Wi-Fi safety
-
-###  Additional Features
-
-* Plays a **WAV audio greeting** on startup
-* ASCII art welcome screen
-* Error handling for missing audio files
-* Cross-platform check for audio support
+This project was developed using Object-Oriented Programming principles in C#.
 
 ---
 
-##  Technologies Used
+# Features
 
-* **C# (.NET)**
-* Console Application
-* `System.Media.SoundPlayer` for audio playback
-* Object-Oriented Programming (OOP)
+## Cybersecurity Education
 
----
+The chatbot helps users understand:
 
-##  Project Structure
-
-```
-PROG6221_V1/
-│
-├── Program.cs        # Entry point of the application
-├── Chatbot.cs        # Main chatbot logic and responses
-├── AudioPlayer.cs    # Handles audio playback
-```
+* Phishing attacks
+* Password security
+* Safe browsing practices
+* Multi-factor authentication (MFA)
+* Public Wi-Fi safety
+* Fake websites and scams
 
 ---
 
-##  How to Run
+## Interactive Chatbot
 
-### 1. Clone the Repository
+Users can:
+
+* Ask cybersecurity-related questions
+* Navigate through topic menus
+* Receive instant responses
+* Interact with a personalized chatbot experience
+
+---
+
+## Audio Greeting
+
+The chatbot supports WAV audio playback:
+
+* Plays a welcome greeting on startup
+* Checks if the audio file exists
+* Handles playback errors gracefully
+* Supports Windows platforms
+
+---
+
+## User Interface Features
+
+* ASCII Art welcome banner
+* Colored console output
+* Typing animation effect
+* Easy-to-use menu navigation
+* Windows Forms support
+
+---
+
+# Topics Covered
+
+## Phishing Awareness
+
+The chatbot explains:
+
+* What phishing is
+* How to spot phishing emails
+* Phishing red flags
+* Smishing and vishing
+* What to do after clicking a phishing link
+
+---
+
+## Password Safety
+
+Users can learn about:
+
+* Creating strong passwords
+* Password managers
+* Two-factor authentication (2FA)
+* Multi-factor authentication (MFA)
+* Common password mistakes
+
+---
+
+## Safe Browsing
+
+The chatbot teaches users:
+
+* How to identify secure websites
+* HTTPS security
+* Public Wi-Fi safety
+* Browser security practices
+* How to avoid fake websites
+
+---
+
+# Technologies Used
+
+* **C#**
+* **.NET Framework / .NET**
+* **Windows Forms**
+* **Console Application Development**
+* **Object-Oriented Programming (OOP)**
+* `System.Media.SoundPlayer`
+
+---
+
+# Project Structure
 
 ```bash
-https://github.com/FRANS717/PROG6221-POE.git
+PROG6221 V1/
+│
+├── Program.cs                # Main entry point
+├── Chatbot.cs                # Chatbot interaction logic
+├── ChatbotEngine.cs          # Chatbot processing engine
+├── AudioPlayer.cs            # WAV audio playback
+├── ConsoleHelper.cs          # Console styling utilities
+├── Ascii.cs                  # ASCII art display
+├── Form1.cs                  # Windows Forms UI
+├── Form1.Designer.cs         # Windows Forms designer
+├── Audio.wav                 # Greeting audio file
 ```
 
-### 2. Open in IDE
+---
 
-* Open the project in **Visual Studio** or any C# compatible IDE
+# How to Run the Project
 
-### 3. Add Audio File (Optional)
+## 1. Clone the Repository
 
-* Place a `.wav` file in your project directory
-* Update the file path in `Program.cs`:
+```bash
+git clone https://github.com/your-username/cybersecurity-awareness-chatbot.git
+```
+
+---
+
+## 2. Open the Project
+
+Open the solution/project in:
+
+* Visual Studio 2022 or later
+
+---
+
+## 3. Configure the Audio File
+
+Ensure the `Audio.wav` file exists in the correct directory.
+
+Example:
 
 ```csharp
-string audioFilePath = @"C:\path\to\your\Audio.wav";
+string audioFilePath = @"C:\Users\YourName\Desktop\Audio.wav";
 ```
 
-### 4. Run the Program
+---
 
-* Press **Start (F5)** in Visual Studio
-  or
+## 4. Run the Application
+
+Press:
+
+* `F5` in Visual Studio
+
+OR run using:
 
 ```bash
 dotnet run
@@ -97,12 +175,9 @@ dotnet run
 
 ---
 
-##  Example Usage
+# Example Menu
 
-```
-Welcome back, John!
-Please select an option:
-
+```text
 1. Ask about Phishing
 2. Ask about Password Safety
 3. Ask about Safe Browsing
@@ -112,35 +187,46 @@ Please select an option:
 
 ---
 
-##  Notes
+# Important Notes
 
-* Audio playback works **only on Windows**
-* Ensure the `.wav` file exists, otherwise playback will be skipped
-* The chatbot uses keyword matching (not AI-based NLP)
-
----
-
-##  Future Improvements
-
-* Add GUI (Windows Forms or Web App)
-* Integrate real AI/NLP (e.g., API-based chatbot)
-* Store user interaction history
-* Expand cybersecurity topics
+* Audio playback currently works on Windows systems.
+* Ensure the WAV file path is correct.
+* The chatbot uses keyword matching for responses.
+* Internet access is not required to use the chatbot.
 
 ---
 
-##  Author
+# Future Improvements
 
-Developed as part of a CybersecurityAwarenessBot.
+Possible future upgrades include:
+
+* AI/NLP integration
+* Database storage for conversations
+* Web-based chatbot version
+* More cybersecurity topics
+* Voice recognition support
+* Mobile application version
 
 ---
 
-##  License
+# Educational Purpose
 
-This project is open-source and available under the **MIT License**.
+This chatbot was developed as part of a cybersecurity awareness and programming project to promote safe online behavior and improve cybersecurity knowledge.
 
 ---
 
-##  Stay Safe Online!
+# Developer
 
-> "Cybersecurity is not just about technology — it's about awareness."
+Developed using C# and .NET technologies.
+
+---
+
+# License
+
+This project is open-source and available under the MIT License.
+
+---
+
+# Cybersecurity Reminder
+
+> “Think before you click. Stay safe online(# LIMIT).”
