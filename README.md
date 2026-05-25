@@ -136,7 +136,7 @@ PROG6221 V1/
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/cybersecurity-awareness-chatbot.git
+git clone https:https://github.com/FRANS717/PROG6221-POE.git
 ```
 
 ---
