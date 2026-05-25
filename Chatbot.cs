@@ -198,7 +198,7 @@ namespace PROG6221_V1
                 ConsoleHelper.WriteColored("  • Hello\n", ConsoleColor.Yellow);
                 ConsoleHelper.WriteColored("  • Help\n", ConsoleColor.Yellow);
 
-              
+
                 ConsoleHelper.WriteColored("\n(Type 'back' at any time to return to the main menu)\n", ConsoleColor.Magenta);
 
                 ConsoleHelper.PrintSeparator('-');
