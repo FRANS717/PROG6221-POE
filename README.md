@@ -1,6 +1,6 @@
 # Cybersecurity Awareness Chatbot
 
-## 📌 Project Overview
+##  Project Overview
 
 The **Cybersecurity Awareness Chatbot** is a C# application developed to educate users about cybersecurity threats and safe online practices. The chatbot provides interactive guidance on phishing, password protection, safe browsing, and general cybersecurity awareness.
 
