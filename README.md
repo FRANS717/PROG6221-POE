@@ -12,6 +12,7 @@ The application includes:
 * Typing effects and colored console UI
 * Cybersecurity educational content
 * Windows Forms integration
+* WPF (Windows Presentation Foundation) graphical interface
 
 This project was developed using Object-Oriented Programming principles in C#.
 
@@ -205,7 +206,7 @@ Possible future upgrades include:
 * Web-based chatbot version
 * More cybersecurity topics
 * Voice recognition support
-* Mobile application version
+
 
 ---
 
